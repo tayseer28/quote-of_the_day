@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container d-flex flex-column vh-100">
+        <h1 class="text-center pt-5 text-muted ">Quote of the Day</h1>
+        <div class="card text-center w-50 m-auto shadow-sm">
+
+            <div class="card-body">
+                <!-- <h5 class="card-title">Special title treatment</h5> -->
+                <p class="card-text" id="quoteContainer"></p>
+                <p class="card-text" id="authorContainer"></p>
+                <!-- <button onclick ="displayQuote()" class="btn btn-primary text-capitalize">new quote</button> -->
+                <button type="button" onclick="displayQuote()" class="btn btn-outline-success text-capitalize" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Press the button to recieve a random quote!">new quote</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
